@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev:audivice": "cd apps && cd docs && turbo run dev",
-    "dev:audivice_back": "cd apps && cd web && turbo run dev",
+    "dev:a": "cd apps && cd docs && turbo run dev",
+    "dev:b": "cd apps && cd web && turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
